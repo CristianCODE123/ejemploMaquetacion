@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+body{
+    font-family: roboto;
+}
+
+.head-container{
+    position: fixed;
+    background-color: rgb(40, 55, 71);
+    right: 0;
+    top: 0;
+    left: 0;
+    margin-top: -2.3em;
+    height: 100px;
+    header{
+        margin-top: .9em;
+    }
+}
+
+.logo{
+    width: 35px;
+    height: 45px;
+    cursor: pointer;
+}
+
+    .features-list{
+    
+        li{
+            list-style: none;
+            display:inline-block;
+            padding: 0px 20px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease 0s;
+            &:hover{
+                color:#0088a9;
+            }
+        }
+    }
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.boton{
+    border-radius: 5em;
+    padding: .4em;
+    border: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: #006bd6;
+    transition: all 0.3s ease 0s;
+    &:hover{
+        background-color: #0088a9;
+    }
+}
+
+.img{
+    margin-top: 3.80em;
+    width: 1400px;
+    margin-left: 15em;
+    border: 5px solid black;
+}
+
+.logo2{
+    margin-top: -50em;
+    margin-left: 35em;
+    width: 722px;
+    height: 500px;
+    
+}
+
+.inicio{
+    background-color: black;
+    height: 716px;
+    a{
+        
+        background-color: rgb(40, 55, 71);
+        color: white;
+        border-radius: 1em;
+        padding: .6em;
+        text-decoration: none;
+        width: 150px;
+        margin-left: 55em;
+        position: flex;
+        top: -10em;
+        &:hover{
+            color: white;
+            background-color: #006bd6;
+        }
+    }
+}
+
+.socialMedia-section{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    background-color:rgb(40, 55, 71);
+    top: -1em;
+   ul{
+   margin-left: 20em;
+    margin-top: .4em;
+   }
+    li{
+       display: inline-block;
+       padding: 0 1em;
+       text-align: center;
+      
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    margin: 16px 0; 
+    .textoSocial{
+        margin-left: 30em;
+        color: white;
+
+    }
+}
+.carousel-inner{
+    img{
+        width: 1200;
+        height: 700;
+    }
+}
+.descargar{
+    margin-top: -10em;
+}

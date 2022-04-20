@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+body {
+  font-family: roboto;
+}
+
+.head-container {
+  position: fixed;
+  background-color: #283747;
+  right: 0;
+  top: 0;
+  left: 0;
+  margin-top: -2.3em;
+  height: 100px;
+}
+
+.head-container header {
+  margin-top: .9em;
+}
+
+.logo {
+  width: 35px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.features-list li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.features-list a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.features-list a:hover {
+  color: #0088a9;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 10%;
+}
+
+.boton {
+  border-radius: 5em;
+  padding: .4em;
+  border: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  background-color: #006bd6;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.boton:hover {
+  background-color: #0088a9;
+}
+
+.img {
+  margin-top: 3.80em;
+  width: 1400px;
+  margin-left: 15em;
+  border: 5px solid black;
+}
+
+.logo2 {
+  margin-top: -50em;
+  margin-left: 35em;
+  width: 722px;
+  height: 500px;
+}
+
+.inicio {
+  background-color: black;
+  height: 716px;
+}
+
+.inicio a {
+  background-color: #283747;
+  color: white;
+  border-radius: 1em;
+  padding: .6em;
+  text-decoration: none;
+  width: 150px;
+  margin-left: 55em;
+  position: flex;
+  top: -10em;
+}
+
+.inicio a:hover {
+  color: white;
+  background-color: #006bd6;
+}
+
+.socialMedia-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #283747;
+  top: -1em;
+  margin: 16px 0;
+}
+
+.socialMedia-section ul {
+  margin-left: 20em;
+  margin-top: .4em;
+}
+
+.socialMedia-section li {
+  display: inline-block;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.socialMedia-section li a {
+  color: white;
+  text-decoration: none;
+}
+
+.socialMedia-section .textoSocial {
+  margin-left: 30em;
+  color: white;
+}
+
+.carousel-inner img {
+  width: 1200;
+  height: 700;
+}
+
+.descargar {
+  margin-top: -10em;
+}
+/*# sourceMappingURL=css.css.map */
